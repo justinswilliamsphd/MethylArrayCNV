@@ -2,13 +2,13 @@
 Process and integrate DNAm array data for single-sample and cohort-level CNV analysis.
 
 Generate CNV profiles:
-  1) cohort level karyotype plots
-  2) sample-by-sample detailed plots
-  3) focal detailed annotation plots
+1) cohort level karyotype plots
+2) sample-by-sample detailed plots
+3) focal detailed annotation plots
 
 optional:
-  - 4) create a normal reference Rdata for CNS/Brain samples
-  - 5) create a generic annotation (focal) RData file
+4) create a normal reference Rdata for CNS/Brain samples
+5) create a generic annotation (focal) RData file
 
 ## Environment requirements:
 - r-base=4.4.3
