@@ -39,29 +39,29 @@ optional:
 ## To Run:
 ### required parameters:  
 
-  sample_sheet, full path to tab delimited sample name/ IDAT matchup  
+&emsp;sample_sheet, full path to tab delimited sample name/ IDAT matchup  
 
 ### optional parameters:  
 
-**--id**, additional identifier for output (default: "")  
+&emsp;**--id**, additional identifier for output (default: "")  
 
-**--analysis**, standard, karyotype, or both (default: both)  
+&emsp;**--analysis**, standard, karyotype, or both (default: both)  
 
-**--ref**, RData CNV reference obj (default: NULL)  
+&emsp;**--ref**, RData CNV reference obj (default: NULL)  
 
-**--annot**, RData CNV annotation obj	(default: NULL)	 
+&emsp;**--annot**, RData CNV annotation obj	(default: NULL)	 
 
-**--rn**, If specified, rename samples from Sentrix to SampleID (default: TRUE)  
+&emsp;**--rn**, If specified, rename samples from Sentrix to SampleID (default: TRUE)  
 
-**--mdr**, If specified, create default reference set (default: FALSE)  
+&emsp;**--mdr**, If specified, create default reference set (default: FALSE)  
 
-**--mdr_sheet**, The default reference sample_sheet path (default: "default_ref_sample_sheet.txt")  
+&emsp;**--mdr_sheet**, The default reference sample_sheet path (default: "default_ref_sample_sheet.txt")  
 
-**--mda**, If specified, create default annotation set (default: TRUE)  
+&emsp;**--mda**, If specified, create default annotation set (default: TRUE)  
 
-**--xy**, If specified, include XY chromosomes (default: FALSE)  
+&emsp;**--xy**, If specified, include XY chromosomes (default: FALSE)  
 
-**--kt**, Log2Ratio absolute threshold for inclusion in karyotype view (default: 0.1)  
+&emsp;**--kt**, Log2Ratio absolute threshold for inclusion in karyotype view (default: 0.1)  
 
 ## Input SampleSheet
 
