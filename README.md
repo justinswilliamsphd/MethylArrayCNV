@@ -36,6 +36,21 @@ optional:
 - IlluminaMouseMethylationanno.12.v1.mm10_0.0.2
 - IlluminaMouseMethylationmanifest_0.0.1
 
+## To Run:
+required parameters: 
+  sample_sheet, full path to tab delimited sample name/ IDAT matchup
+optional parameters: 
+--id, additional identifier for output (default: "")
+--analysis, standard, karyotype, or both (default: both)
+--ref, RData CNV reference obj (default: NULL)
+--annot, RData CNV annotation obj	(default: NULL)	
+--rn, If specified, rename samples from Sentrix to SampleID (deafult: TRUE)
+--mdr, If specified, create default reference set (default: FALSE)
+--mdr_sheet, The default reference sample_sheet path (default: "default_ref_sample_sheet.txt")
+--mda, If specified, create default annotation set (default: TRUE)
+--xy, If specified, include XY chromosomes (default: FALSE)
+--kt, Log2Ratio absolute threshold for inclusion in karyotype view (default: 0.1)
+
 ## Input SampleSheet
 
 | Index | SampleID | BaseName | ArrayType | GSMID | SampleType | Download | Annotation | AnnotColor |
