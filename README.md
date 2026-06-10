@@ -68,4 +68,6 @@ optional:
 | Index | SampleID | BaseName | ArrayType | GSMID | SampleType | Download | Annotation | AnnotColor |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | ---: |
 | sentrix_id | A sample name | full_path_to_sentrix_id | version of array | Accession from GEO | Query or Reference | boolean | Sample Grouping | Grouping Color |
-| 205091240115_R05C01 | Sample1 | /full/path/205091240115_R05C01 | [450k, EPIC, EPICv2, Mouse] | NA | [query/ref] | [TRUE/FALSE] | CancerType1 | #EDA909 |
+| 205091240115_R05C01 | Sample1 | /full/path/205091240115_R05C01 | EPICv2[450k, EPIC, EPICv2, Mouse] | NA | query[query/ref] | FALSE[TRUE/FALSE] | CancerType1 | #EDA909 |
+| 205091240115_R05C01 | Sample1 | /full/path/205091240115_R05C01 | EPICv2[450k, EPIC, EPICv2, Mouse] | NA | query[query/ref] | FALSE[TRUE/FALSE] | CancerType1 | #EDA909 |
+| 205091240115_R05C01 | Sample1 | /full/path/205091240115_R05C01 | EPICv2[450k, EPIC, EPICv2, Mouse] | NA | query[query/ref] | FALSE[TRUE/FALSE] | CancerType1 | #EDA909 |
