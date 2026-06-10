@@ -7,8 +7,8 @@ Generate CNV profiles:
 3) focal detailed annotation plots
 
 optional:
-4) create a normal reference Rdata for CNS/Brain samples
-5) create a generic annotation (focal) RData file
+1) create a normal reference Rdata for CNS/Brain samples
+2) create a generic annotation (focal) RData file
 
 ## Environment requirements:
 - r-base=4.4.3
