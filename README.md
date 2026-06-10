@@ -58,7 +58,9 @@ optional:
 &emsp;**--mdr**, If specified, create default reference set (default: FALSE)  
 &emsp;&emsp;**NOTE**: if provided, will override sample sheet reference samples  
   
-&emsp;**--mdr_sheet**, The default reference sample_sheet path (default: "default_ref_sample_sheet.txt")  
+&emsp;**--mdr_human_sheet**, The default reference sample_sheet path (default: "default_human_brain_reference_450K.txt")  
+
+&emsp;**--mdr_mouse_sheet**, The default reference sample_sheet path (default: "default_mouse_brain_reference_450K.txt")  
 
 &emsp;**--mda**, If specified, create default annotation set (default: TRUE)  
 
