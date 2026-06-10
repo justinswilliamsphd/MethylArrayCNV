@@ -72,7 +72,7 @@ optional:
 
 | Index | SampleID | BaseName | ArrayType | GSMID | SampleType | Download | Annotation | AnnotColor |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | ---: |
-| sentrix_id | A sample name | full_path_to_sentrix_id | version of array[450k, EPIC, EPICv2, Mouse] | Accession from GEO | Query or Reference[query/ref]  | boolean[TRUE/FALSE] | Sample Grouping | Grouping Color |
+| sentrix_id | A sample name | full_path_to_sentrix_id | version of array[450k, EPIC, EPICv2, mouse] | Accession from GEO | Query or Reference[query/ref]  | boolean[TRUE/FALSE] | Sample Grouping | Grouping Color |
 | 205091240115_R05C01 | Sample1 | /full/path/205091240115_R05C01 | EPICv2 |  | query | FALSE | CancerType1 | #EDA909 |
 | CONTR_ADENOPIT_02 | CONTR_ADENOPIT_02 |  | 450k | GSM2405408 | ref | TRUE |  |  |
 | GBM_G34_sample1 | GBM_G34_sample1  |  | 450k | GSM2402854 | query | TRUE | GBM_G34 | #4287f5 |
