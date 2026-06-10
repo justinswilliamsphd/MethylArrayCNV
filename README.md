@@ -49,13 +49,15 @@ optional:
 &emsp;**--analysis**, standard, karyotype, or both (default: both)  
 
 &emsp;**--ref**, RData CNV reference obj (default: NULL)  
-
+&emsp;&emsp;**NOTE**: if provided, will override sample sheet reference samples
+  
 &emsp;**--annot**, RData CNV annotation obj	(default: NULL)	 
 
 &emsp;**--rn**, If specified, rename samples from Sentrix to SampleID (default: TRUE)  
 
 &emsp;**--mdr**, If specified, create default reference set (default: FALSE)  
-
+&emsp;&emsp;**NOTE**: if provided, will override sample sheet reference samples  
+  
 &emsp;**--mdr_sheet**, The default reference sample_sheet path (default: "default_ref_sample_sheet.txt")  
 
 &emsp;**--mda**, If specified, create default annotation set (default: TRUE)  
