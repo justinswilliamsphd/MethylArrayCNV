@@ -1,0 +1,7 @@
+Index	SampleID	BaseName	ArrayType	GSMID	SampleType	Download	Annotations	AnnotColor
+204998560005_R01C01	1_brain_p12		mouse	GSM5904462	ref	TRUE		
+204998560004_R01C01	1_brain_p18		mouse	GSM5904468	ref	TRUE		
+204998560005_R01C02	1_brain_p15		mouse	GSM5904465	ref	TRUE		
+205659810062_R03C01	1_Cerebellum		mouse	GSM7706474	ref	TRUE		
+205659810062_R05C01	2_Cerebellum		mouse	GSM7706475	ref	TRUE		
+205659810062_R01C01	3_Cerebellum		mouse	GSM7706476	ref	TRUE		
