@@ -1,5 +1,7 @@
 #------------------------------------------------------------------------------
 # Generate CNV Profiles
+# Rscript dnam_cnv_analysis.R example_human_brain_query_450k.txt --id test_human --mdr TRUE
+# human example: 7.5 minutes, 4GB RAM, 18 reference samples, 3 query samples   
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 get_line_args <- function(){
@@ -19,8 +21,11 @@ get_line_args <- function(){
             help='If specified, rename samples from Sentrix to SampleID')
 	parser$add_argument('--mdr', default=FALSE, type="logical", 
 						help='If specified, create default reference set')
-  mdr_human_sheet=file.path(getwd(),"default_human_brain_reference_450K.txt")
-  parser$add_argument('--mdr_human_sheet', default=mdr_human_sheet, type="character", 
+  mdr_full_human_sheet=file.path(getwd(),"default_human_brain_reference_450K.txt")
+  parser$add_argument('--mdr_full_human_sheet', default=mdr_full_human_sheet, type="character", 
+            help='The default human reference sample_sheet path')
+  mdr_abbrev_human_sheet=file.path(getwd(),"default_human_brain_abbrev_reference_450K.txt")
+  parser$add_argument('--mdr_abbrev_human_sheet', default=mdr_abbrev_human_sheet, type="character", 
             help='The default human reference sample_sheet path')
   mdr_mouse_sheet=file.path(getwd(),"default_mouse_brain_reference_Mouse.txt")
   parser$add_argument('--mdr_mouse_sheet', default=mdr_mouse_sheet, type="character", 
@@ -838,7 +843,7 @@ main<-function(){
     if("mouse" %in% line_args$sample_sheet$ArrayType){
       mdr_sheet = read.delim(line_args$mdr_mouse_sheet)
     }else{
-      mdr_sheet = read.delim(line_args$mdr_human_sheet)
+      mdr_sheet = read.delim(line_args$mdr_abbrev_human_sheet) # TODO: add option abbrev/full
     }
     ref_mset_list = load_sample_data(line_args, mdr_sheet, "ref")
     def_ref_path = file.path(line_args$RData_outdir,
