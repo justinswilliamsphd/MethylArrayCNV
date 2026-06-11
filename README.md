@@ -1,6 +1,6 @@
 # MethylArrayCNV
-Process and integrate DNAm array data for single-sample and cohort-level CNV analysis.  
-**NOTE**: The default references provided are of normal brain tissue and mouse brain tissue, however a custom refrence set is easily implemented by providing those samples/GSMIDs in the sample sheet.
+Process and integrate DNAm array data for single-sample and cohort-level CNV analysis.
+**NOTE**: The default references provided are of normal brain tissue and mouse brain tissue, however a custom reference set is easily implemented by providing those samples/GSM IDs in the sample sheet. Samples from GEO are downloaded locally.
 
 Generate CNV profiles:
 1) cohort level karyotype plots
@@ -9,7 +9,8 @@ Generate CNV profiles:
 
 optional:
 1) create a normal reference set (saved as Rdata) 
-2) create a generic annotation (focal analysis, saved as Rdata) 
+2) create a generic annotation (focal analysis, saved as Rdata)
+3) Include samples from GEO by GSM ID (downloads locally) 
 
 ## Environment requirements:
 - r-base=4.4.3
